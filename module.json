@@ -1,20 +1,17 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "nia-tero-homebrew",
+  "title": "Nia Tero Homebrew",
+  "description": "This module aims to implement in foundry several house rules for all 5e Nia Tero campaigns",
   "version": "#{VERSION}#",
-  "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "verified": 13,
+    "maximum": 13.999
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Mario Espinosa Rodríguez",
+      "url": "https://github.com/Nia-Tero-Worldsmiths/Brunhildas-Stacked-Vaults"
     }
   ],
   "relationships": {
@@ -22,7 +19,7 @@
     "requires": []
   },
   "esmodules": [
-    "scripts/module.js"
+    "scripts/weapon-upgrades.js"
   ],
   "scripts": [
     "scripts/lib/lib.js"
