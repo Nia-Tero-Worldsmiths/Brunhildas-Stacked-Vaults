@@ -1,0 +1,28 @@
+<div class="upgrades-content">
+    {{#each upgrades}}
+    <div class="upgrade-tier">
+        <div class="upgrade-tier-header">
+            <h4>{{name}}</h4>
+            {{!
+            <div class="upgrade-tier-cost-buttons">
+                <button type='button' class='upgrades-cost-button'>Buy cost</button>
+                <button type='button' class='upgrades-cost-button'>Craft cost</button>
+            </div>
+            }}
+        </div>
+        <div class="upgrade-tier-contents">
+            <ul>
+                {{#each entries}}
+                <li>
+                    <label>
+                        <input type="checkbox" name="{{key}}" {{#if checked}}checked{{/if}}>
+                        {{name}}
+                    </label>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <hr>
+    {{/each}}
+</div>
