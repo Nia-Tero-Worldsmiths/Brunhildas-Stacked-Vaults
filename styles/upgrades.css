@@ -1,0 +1,19 @@
+.upgrade-tier-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* or flex-start if you want them tight together */
+}
+
+.upgrade-tier-header h4{
+  margin: 0 !important;
+}
+
+.upgrade-tier-cost-buttons{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.upgrades-cost-button{
+  padding: 0rem 1rem;
+}
+

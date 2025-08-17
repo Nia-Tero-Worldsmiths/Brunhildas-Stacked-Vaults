@@ -1,3 +1,76 @@
 {
-    "MODULE.hello": "hello"
+    "BRUNHILDAS-STACKED-VAULTS": {
+        "CORE": {
+            "languages": {
+                "standard": {
+                    "children": {
+                        "common": "Esperanto",
+                        "marino": "Sea tongue",
+                        "sidio": "Sidian",
+                        "grung": "Grung",
+                        "teikokugo": "Teikokugo",
+                        "micano": "Mican",
+                        "draconic": "Oneiric"
+                    }
+                }
+            },
+            "skills": {
+                "pol": {
+                    "label": "Politics",
+                    "full_key": "politics"
+                },
+                "oni": {
+                    "label": "Oneiric travel",
+                    "full_key": "oneiric travel"
+                }
+            },
+            "weapon_types": {
+                "advanced_m": "Advanced Melee",
+                "advanced_r": "Advanced Ranged",
+                "advanced_s": "Advanced Siege Weapon"
+            },
+            "weapon_proficiencies": {
+                "adv": "Advanced"
+            }
+        },
+        "UPGRADES": {
+            "tiers": {
+                "tier0": "Tier 0",
+                "tier1": "Tier 1",
+                "tier2": "Tier 2",
+                "tier3": "Tier 3"
+            },
+            "upgrade-names": {
+                "fine_craft": "Fine craft",
+                "masterwork": "Masterwork",
+                
+                "arcane": "Arcane",
+                "balanced": "Balanced",
+                "brutal": "Brutal",
+                "critical": "Critical",
+                "enchanted": "Enchanted",
+                "flanged": "Flanged",
+                "magical": "Magical",
+                "saw_toothed": "Saw-toothed",
+                "silvered": "Silvered",
+                "superior": "Superior",
+                "wounding": "Wounding,",
+
+                "burnished": "Burnished",
+                "breathable": "Breathable",
+                "climbing_harness": "Climbing harness",
+                "dragon_scales": "Dragon scales",
+                "holy_symbol": "Holy symbol",
+                "insulated": "Insulated",
+                "locking_joints": "Locking joints",
+                "muffled": "Muffled",
+                "perfected": "Perfected",
+                "quick_release_clasps": "Quick-release clasps",
+                "reinforced": "Reinforced",
+                "spiked": "Spiked"
+            },
+            "upgrade-tooltips": {}
+        },
+        "NAVAL_COMBAT": {}
+    }
 }

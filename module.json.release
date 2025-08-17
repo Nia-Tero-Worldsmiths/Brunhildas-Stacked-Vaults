@@ -1,15 +1,16 @@
 {
-  "id": "brunhildas-stacked-vaults",
-  "title": "Brunhilda's Stacked Vaults",
+  "id": "nia-tero-homebrew",
+  "title": "Nia Tero Homebrew",
   "description": "This module aims to implement in foundry several house rules for all 5e Nia Tero campaigns",
-  "version": "development",
+  "version": "#{VERSION}#",
+  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "verified": 13,
     "maximum": 13.999
   },
   "authors": [
     {
-      "name": "Mario Espinosa Rodríguez",
+      "name": "Marioespiro",
       "url": "https://github.com/Nia-Tero-Worldsmiths/Brunhildas-Stacked-Vaults"
     }
   ],
@@ -40,6 +41,9 @@
       "path": "languages/en.json"
     }
   ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
