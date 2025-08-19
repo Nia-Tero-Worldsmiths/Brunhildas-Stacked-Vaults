@@ -1,6 +1,6 @@
 {
-  "id": "nia-tero-homebrew",
-  "title": "Nia Tero Homebrew",
+  "id": "brunhildas-stacked-vaults",
+  "title": "Brunhilda's Stacked Vaults",
   "description": "This module aims to implement in foundry several house rules for all 5e Nia Tero campaigns",
   "version": "#{VERSION}#",
   "manifestPlusVersion": "1.2.0",
